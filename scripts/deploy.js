@@ -2,11 +2,11 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const rewardAmount = 10;
+  // const rewardAmount = BigNumber.from(10 * 10 ** 18);
   const airdropContract = await ethers.getContractFactory("AirDrop");
 
   // here we deploy the contract
-  const deployedAirdropContract = await airdropContract.deploy(rewardAmount);
+  const deployedAirdropContract = await airdropContract.deploy();
 
   // wait for the contract to deploy
   await deployedAirdropContract.deployed();
