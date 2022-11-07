@@ -167,8 +167,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Save the elephants 🐘</h1>
         <p className={styles.description}>
-          STE hepls elephants orphanages in African and India. Join the cause
-          and receive 10 STE 🚀{" "}
+          STE hepls elephants orphanages in Africa and India. Join the cause and
+          receive 10 STE 🚀{" "}
         </p>{" "}
         <div>
           {" "}
